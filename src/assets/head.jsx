@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeadImg from "/public/img/headimg.png";
+import HeadImg from "../img/headimg.png";
 import { FiPhone } from "react-icons/fi";
 import { ImWhatsapp } from "react-icons/im";
 const head = () => {

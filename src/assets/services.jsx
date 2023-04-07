@@ -1,8 +1,8 @@
 import React from "react";
-import Fold from "/public/img/fold.png";
-import Iron from "/public/img/iron.png";
-import Steam from "/public/img/steam.png";
-import Clean from "/public/img/clean.png";
+import Fold from "../img/fold.png";
+import Iron from "../img/iron.png";
+import Steam from "../img/steam.png";
+import Clean from "../img/clean.png";
 
 const services = () => {
   return (

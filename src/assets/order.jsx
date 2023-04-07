@@ -1,7 +1,7 @@
 import React from 'react'
-import OrderIcon from "/public/img/ordericon.png"
-import CleanIcon from "/public/cleanicon.png"
-import DeliveredIcon from "/public/img/deliveredicon.png"
+import OrderIcon from "../img/ordericon.png"
+import CleanIcon from '../img/cleanicon.png'
+import DeliveredIcon from "../img/deliveredicon.png"
 
 
 const order = () => {
