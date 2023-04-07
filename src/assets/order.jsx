@@ -1,6 +1,6 @@
 import React from 'react'
 import Ordericon from "/public/img/ordericon.png"
-import Cleanicon from "public/cleanicon.png"
+// import Cleanicon from "public/cleanicon.png"
 
 import Deliveredicon from "/public/img/deliveredicon.png"
 
