@@ -136,10 +136,32 @@ nav,
   transition: all 0.5s ease-in-out;
 }
 .whatsapp {
-  background-color: #25d366;
+  border-radius: 20px;
+
+  background: linear-gradient(
+    60deg,
+    rgba(140, 255, 182, 1) 0%,
+    rgba(37, 211, 102, 1) 35%,
+    rgba(7, 94, 84, 1) 97%
+  );
 }
 .whatsapp:hover {
-  background-color: rgb(20, 149, 20);
+  transform: scale(1.1);
+}
+.instagram {
+  border-radius: 20px;
+
+  background: linear-gradient(
+    20deg,
+    rgba(254, 218, 117, 1) 0%,
+    rgba(250, 126, 30, 1) 1%,
+    rgba(214, 41, 118, 1) 8%,
+    rgba(150, 47, 191, 1) 67%,
+    rgba(79, 91, 213, 1) 100%
+  );
+}
+.instagram:hover {
+  transform: scale(1.1);
 }
 .row {
   text-transform: uppercase;
@@ -188,6 +210,8 @@ nav,
   border-radius: 500px;
 }
 .order h1,
+.shopping h1,
+.contact h1,
 .pricing h1 {
   text-align: center;
   text-transform: capitalize;
@@ -197,6 +221,7 @@ nav,
   line-height: 77px;
   margin-bottom: -20px;
 }
+.contact p,
 .order p,
 .pricing p {
   font-family: "Inter";
@@ -250,15 +275,15 @@ nav,
 }
 
 .pricing-row {
-  border: 1px solid #3f7af2;
-  padding: 0 20px;
+  border: 2px solid #3f7af2;
+  padding: 2px 20px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 260px;
-  background-color: rgba(240, 240, 240, 0.621);
+  background-color: transparent;
 }
 
 .pricing-row h3 {
@@ -310,6 +335,19 @@ nav,
 }
 .r {
   font-size: 25px;
+}
+.shopping_flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+.contact-dets {
+  gap: 30px;
+  margin: 100px 0;
+  display: flex;flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 footer {

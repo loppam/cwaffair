@@ -22,6 +22,9 @@ const navbar = () => {
         <li>
           <Link to="#contact">Contact Us</Link>
         </li>
+        <li>
+          <Link to="shopping">Shopping</Link>
+        </li>
       </ul>
       <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>
         {Mobile ? <FaTimes /> : <FaBars />}

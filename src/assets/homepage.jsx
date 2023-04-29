@@ -3,7 +3,7 @@ import Head from './head'
 import Services from './services'
 import Pricing from './pricing'
 import Order from './order'
-import Footer from './footer'
+import Contact from './contact'
 
 const homepage = () => {
   return (
@@ -12,7 +12,8 @@ const homepage = () => {
       <Services />
       <Order />
       <Pricing />
-      <Footer />
+      <Contact />
+
     </div>
   )
 }
