@@ -43,6 +43,16 @@ const shopping = () => {
           <span className="hidden">COMING SOON</span>
         </div>
       </div>
+      <div class="marqueet">
+        <div>
+          <span>COMING SOON</span>
+          <span>COMING SOON</span>
+          <span>COMING SOON</span>
+          <span className="hidden">COMING SOON</span>
+          <span className="hidden">COMING SOON</span>
+          <span className="hidden">COMING SOON</span>
+        </div>
+      </div>
     </div>
   );
 };
